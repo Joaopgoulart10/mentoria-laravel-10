@@ -56,6 +56,7 @@
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
+        "process-timeout": 0,
         "allow-plugins": {
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
@@ -63,4 +64,5 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true
+    
 }
