@@ -2,26 +2,26 @@
     <div class="position-sticky pt-3 sidebar-sticky">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="#">
-              <svg class="bi"><use xlink:href="#house-fill"/></svg>
+            <a class="nav-link" aria-current="page" href="#">
+              <span data-feather="home" class="align-text-bottom"></span>
               Dashboard
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link d-flex align-items-center gap-2" href="#">
-              <svg class="bi"><use xlink:href="#file-earmark"/></svg>
+            <a class="nav-link" href="#">
+              <span data-feather="file" class="align-text-bottom"></span>
               Venda
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link d-flex align-items-center gap-2" href="#">
-              <svg class="bi"><use xlink:href="#cart"/></svg>
+            <a class="nav-link" href="{{route('produto.index')}}">
+              <span data-feather="shopping-cart" class="align-text-bottom"></span>
               Produtos
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link d-flex align-items-center gap-2" href="#">
-              <svg class="bi"><use xlink:href="#people"/></svg>
+            <a class="nav-link" href="#">
+              <span data-feather="users" class="align-text-bottom"></span>
               Clientes
             </a>
           </li>
