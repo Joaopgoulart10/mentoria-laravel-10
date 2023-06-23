@@ -11,4 +11,3 @@ Route::get('/', function () {
 Route::prefix('produtos')->group(function(){
     Route::get('/', [ProdutosController::class, 'index'])->name('produto.index');
 });
-
